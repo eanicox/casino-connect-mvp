@@ -1,19 +1,7 @@
-# Casino Connect — GitHub Pages MVP
+# Casino Connect MVP V2
 
-Demo estática conceptual. No utiliza cuentas, juegos ni dinero reales.
+Demo estática para GitHub Pages. Subir `index.html`, `logo-tipografico.png` y `logo-c.png` a la raíz de la rama `main`.
 
-## Publicar
+Incluye pantalla QR, navegación de terminal, categorías y control móvil con saldo ficticio. No vincula dispositivos, no autentica ni opera dinero real. El QR usa un generador externo de imágenes y requiere internet.
 
-1. Subir `index.html` y `README.md` a la raíz de la rama `main` de `eanicox/casino-connect-mvp` (extraer el ZIP primero; no subir el ZIP como archivo único).
-2. GitHub > Settings > Pages > Build and deployment > Deploy from a branch > `main` / `(root)` > Save.
-3. Abrir `https://eanicox.github.io/casino-connect-mvp/` cuando GitHub Pages termine de publicar.
-
-## Rutas
-
-- `/#terminal` — pantalla QR para terminal
-- `/#control` — control móvil ficticio
-- `/#games` — verticales de juego simuladas
-
-**Limitación:** el QR abre la pantalla de control, pero no vincula sesiones reales. GitHub Pages no ejecuta backend. Para un MVP conectado entre dispositivos se requiere servidor y autenticación segura.
-
-El QR se genera con un servicio público externo (api.qrserver.com) y contiene solamente la URL pública de la demo; no enviar credenciales ni datos personales.
+Los recortes de logotipo provienen de la imagen compartida por el usuario y conservan su fondo original. Reemplazar por assets oficiales transparentes cuando estén disponibles.
